@@ -10,9 +10,7 @@
   <body>
     <div class="container">
       <div class="pet">
-        <div class="pet-message">
-          <p>Woof woof!</p>
-        </div>
+        <div class="pet-message bubble">Woof woof!</div>
           <img class="pet-image" src="../img/dog.png" alt="pet dog">
       </div>
       <div class="action-buttons">
@@ -22,7 +20,17 @@
         <button class="action-button" type="button">pet</button>
       </div>
       <div class="pet-stats">
-        <p>the stats go here</p>
+        <label for="hunger-stat">Hunger:</label>
+        <progress id="hunger-stat" value="70" max="100"></progress>
+
+        <label for="enjoyment-stat">Enjoyment:</label>
+        <progress id="enjoyment-stat" value="70" max="100"></progress>
+
+        <label for="dirtyness-stat">Dirtyness:</label>
+        <progress id="dirtyness-stat" value="70" max="100"></progress>
+
+        <label for="affection-stat">Affection:</label>
+        <progress id="affection-stat" value="70" max="100"></progress>
       </div>
 
     </div>
