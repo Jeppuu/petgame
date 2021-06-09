@@ -1,5 +1,6 @@
 body {
   background-image: url(../img/pattern.png);
+  font-family: 'Comfortaa', cursive;
 }
 
 .container {
@@ -7,22 +8,24 @@ body {
   height: 400px;
   position: relative;
   margin: auto;
-  background: coral;
+  background: #FFA38C;
   padding: 15px;
 }
 /* -- welcome text and introduction -- */
 .welcome {
 text-align: center;
+margin-left: 50px;
 }
 /* -- instruction box on the left -- */
 .instructions {
   position: absolute;
   top: 10px;
   left: 5px;
-  border: solid black 1px;
-  width: 150px;
+  border: solid white 2px;
+  width: 140px;
   height: 300px;
   padding: 10px;
+  margin: 10px;
   text-align: center;
   font-size: 16px;
   font-style: italic;
@@ -40,6 +43,9 @@ text-align: center;
   top: 200px;
   left: 250px;
 }
-.pet-links {
-
+.img-link {
+  border: solid white 4px;
+  border-radius: 60px;
+  padding: 12px;
+  margin-right: 10px;
 }
