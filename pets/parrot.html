@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Play with your parrot!</title>
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="pet-intro">
+      <p>Take care of your pet to make sure it stays happy! You can raise it's mood by playing with it!</p>
+    </div>
+    <div class="container">
+      <div class="pet">
+        <div id="pet-message" class="pet-message bubble">Hello hello!</div>
+          <img class="pet-image" src="../img/parrot.png" alt="pet parrot">
+      </div>
+      <div class="action-buttons">
+        <button class="action-button" type="button" value="feed" onclick="feed()">feed</button>
+        <button class="action-button" type="button" value="play" onclick="play()">play</button>
+        <button class="action-button" type="button" value="bathe" onclick="bathe()">bathe</button>
+        <button class="action-button" type="button" value="pat" onclick="pat()">pat</button>
+      </div>
+      <div class="pet-stats">
+        <label for="hunger-stat">Hunger:</label>
+        <progress id="hunger-stat" value="70" max="100"></progress>
+
+        <label for="enjoyment-stat">Enjoyment:</label>
+        <progress id="enjoyment-stat" value="70" max="100"></progress>
+
+        <label for="dirtyness-stat">Dirtyness:</label>
+        <progress id="dirtyness-stat" value="70" max="100"></progress>
+
+        <label for="affection-stat">Affection:</label>
+        <progress id="affection-stat" value="70" max="100"></progress>
+      </div>
+      <div class="return-home">
+        <a href="../index.html"><button type="button" class="return-home-button">Return to main page</button></a>
+      </div>
+      <div class="pet-name">
+        <label for="pet-name-input">Pet's name:</label>
+        <input class="name-input" type="text" name="name-input" id="pet-name-input">
+      </div>
+    </div>
+    <script src="../javascript/master.js" charset="utf-8"></script>
+  </body>
+</html>
