@@ -144,10 +144,30 @@ progress::-webkit-progress-value {
   bottom: 5%;
 }
 .return-home-button {
-  font-size: 16px;
+  font-size: 14px;
   background-color: #e66a4e;
-  width: 200px;
+  width: 150px;
   border: 3px solid #ffd6cc;
   border-radius: 30px;
   padding: 10px 15px;
+  cursor: pointer;
+}
+.return-home-button:hover {
+  background-color: #fcb7a7;
+}
+/* -- styling for pet's name -- */
+.pet-name {
+  display: inline;
+  font-size: 26px;
+  font-weight: bold;
+}
+.name-input {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 3px solid #ffd6cc;
+  border-radius: 30px;
+  width: 150px;
 }
